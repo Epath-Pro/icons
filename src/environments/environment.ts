@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  API_ENDPOINT: 'https://icons-bked-1.vercel.app/',
+  API_ENDPOINT: 'https://icons-bked.epathpro.com/',
   // API_ENDPOINT: 'http://127.0.0.1:8000/',
   
 };
