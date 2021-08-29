@@ -1,0 +1,9 @@
+<div class="container mt-3">
+  <div class="row">
+    <div class="col-1" *ngFor="let icon of icons">
+      <button class="mat-card mt-3 mb-3 w-100 p-3" mat-button [matBadge]="date === icon.created  ? 'N': '' ">
+        <mat-icon mat-raised-button>{{icon.code}}</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>
